@@ -1,0 +1,22 @@
+// Java code for using comments, indentation, and naming conventions 
+for write hello world for our Java Learning Curse Challenge
+class Main { // this class contains main method 
+
+    // The main method
+    public static void main(String[] args) {
+        // make instance of the HelloWorld class
+        HelloWorld helloWorld = new HelloWorld();
+        // Call sayHello method of the HelloWorld class
+        helloWorld.sayHello();
+    }
+}
+
+// class contains a method to write hello world
+class HelloWorld {
+
+    // this method writes hello world
+    public void sayHello() {
+        // Print "Hello world!" as a result
+        System.out.println("Hello world!");
+    }
+}
